@@ -36,8 +36,9 @@ func main() {
 		},
 	}
 
-	jimPointer := &jim
-	jimPointer.updateName("jimmy")
+	// jimPointer := &jim
+	// shortcut that go allows to work with a type
+	jim.updateName("jimmy")
 
 	// jim.updateName("jimmy")
 	jim.print()
